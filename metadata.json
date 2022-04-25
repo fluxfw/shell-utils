@@ -1,0 +1,7 @@
+{
+    "description": "Some util scripts for shell",
+    "topics": [
+        "shell"
+    ],
+    "homepage": "https://github.com/fluxapps/flux-shell-utils"
+}
