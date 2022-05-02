@@ -32,7 +32,7 @@ else
 fi
 
 for local_bin in $LOCAL_BIN/*; do
-    home_local_bin="$HOME_LOCAL_BIN/`basename "$local_bin" .sh`"
+    home_local_bin="$HOME_LOCAL_BIN/`basename "${local_bin%.*}"`"
 
     echo "Symlink $local_bin to $home_local_bin"
     ln -sfT "$local_bin" "$home_local_bin"
