@@ -15,3 +15,9 @@ Some util scripts for shell
 ```shell
 install-project-to-home-local-bin /path/to/project
 ```
+
+### reset-permissions
+
+```shell
+reset-permissions /path/to/folder
+```
