@@ -2,8 +2,11 @@
 
 set -e
 
+bin="`dirname "$0"`"
+root="$bin/.."
+
 if [ -z `command -v install-project-to-home-local-bin` ]; then
-    "`dirname "$0"`/../.local/bin/install-project-to-home-local-bin.sh" "`dirname "$0"`/.."
+    "$root/.local/bin/install-project-to-home-local-bin.sh" "$root"
 else
-    install-project-to-home-local-bin "`dirname "$0"`/.."
+    install-project-to-home-local-bin "$root"
 fi
