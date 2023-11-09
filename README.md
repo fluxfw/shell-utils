@@ -4,17 +4,9 @@ Some util scripts for shell
 
 ## Installation
 
-```shell
-./bin/install-to-home-local-bin.sh
-```
+Add the files in [bin/PATH/host](bin/PATH/host) to your PATH
 
 ## Commands
-
-### install-project-to-home-local-bin
-
-```shell
-install-project-to-home-local-bin /path/to/project
-```
 
 ### reset-permissions
 
