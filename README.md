@@ -1,6 +1,4 @@
-# flux-shell-utils
-
-Some util scripts for shell
+# shell-utils
 
 ## Installation
 
