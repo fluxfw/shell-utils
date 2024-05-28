@@ -2,12 +2,12 @@
 
 ## Installation
 
-Add the files in [bin/HOST_PATH](bin/HOST_PATH) to your PATH
+Add the files in [HOST_PATH](HOST_PATH) to your PATH
 
 ## Commands
 
-### reset-permissions
+### shell-utils-reset-permissions
 
 ```shell
-reset-permissions /path/to/folder
+shell-utils-reset-permissions /path/to/folder
 ```
