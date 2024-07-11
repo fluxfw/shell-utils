@@ -1,6 +1,7 @@
 *
+!application
+!application/**
 !HOST_PATH
 !HOST_PATH/**
 !.gitignore
 !README.md
-!reset-permissions.sh
